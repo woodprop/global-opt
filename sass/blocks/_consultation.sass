@@ -1,0 +1,56 @@
+.consultation
+  padding-bottom: 80px
+  &_title
+    font-size: 28px
+    font-weight: 400
+    line-height: 23px
+    text-align: center
+
+  &_wrapper
+    padding: 65px 0 50px 0
+    position: relative
+    margin-top: 70px
+    border: 1px solid $color-black
+  &_icon
+    position: absolute
+    top: -51px
+    left: 0
+    right: 0
+    margin: auto
+    width: 102px
+    height: 102px
+    max-width: 102px
+    max-height: 102px
+    display: flex
+    justify-content: center
+    align-items: center
+    background: #ffffff
+    border: 1px solid $color-orange
+    border-radius: 50%
+    box-shadow: 0 0 0 10px #ffffff
+
+  &_form
+    display: flex
+    justify-content: center
+    &_input
+      margin: 0 5px
+      width: 267px
+      height: 46px
+      padding: 0 28px
+      border: 1px solid rgba(0, 0, 0, 0.21)
+      border-radius: 23px
+      font-size: 12px
+      outline: none
+
+
+    &_btn
+      @include button
+      position: absolute
+      bottom: -23px
+      left: 0
+      right: 0
+      margin: auto
+      width: 180px
+      height: 46px
+      border-radius: 23px
+      box-shadow: 0 0 0 10px #ffffff
