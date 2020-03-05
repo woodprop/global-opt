@@ -66,6 +66,32 @@
       margin: 0 20px 40px 20px
       width: 265px
 
+  .consultation
+    &_form
+      padding: 0 25px
+      flex-direction: column
+      &_input
+        width: 100%
+
+        margin: 8px 0 0 0
+
+
+  .reviews
+    &_item
+      width: 100%
+
+
+  .questions
+    &_wrapper
+      width: auto
+    &_form
+      width: 100%
+      padding: 0 25px
+      &_row
+        flex-direction: column
+      &_input
+        margin: 8px 0 0 0
+        width: 100%
 
 @media (max-width: 767px)
   .container
@@ -91,6 +117,12 @@
       flex-direction: column
       align-items: center
 
+  .reviews
+    &_item
+      &_prev
+        left: 20px
+      &_next
+        right: 20px
 
 
 @media (max-width: 575px)
@@ -146,3 +178,8 @@
       margin: 0 0 40px 0
       &:last-child
         margin-bottom: 0
+
+
+  .reviews
+    &_subtitle
+      font-size: 16px
